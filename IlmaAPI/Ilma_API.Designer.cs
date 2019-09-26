@@ -30,9 +30,9 @@
         {
             this.peaLinn = new System.Windows.Forms.Label();
             this.temper = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pilt = new System.Windows.Forms.PictureBox();
             this.riik = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pilt)).BeginInit();
             this.SuspendLayout();
             // 
             // peaLinn
@@ -53,21 +53,21 @@
             this.temper.BackColor = System.Drawing.Color.Transparent;
             this.temper.Font = new System.Drawing.Font("Arial Black", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.temper.ForeColor = System.Drawing.Color.DarkCyan;
-            this.temper.Location = new System.Drawing.Point(205, 565);
+            this.temper.Location = new System.Drawing.Point(22, 565);
             this.temper.Name = "temper";
             this.temper.Size = new System.Drawing.Size(119, 95);
             this.temper.TabIndex = 1;
             this.temper.Text = "°C";
             // 
-            // pictureBox2
+            // pilt
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::IlmaAPI.Properties.Resources.Cloud___Lightning1;
-            this.pictureBox2.Location = new System.Drawing.Point(38, 121);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(453, 441);
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
+            this.pilt.BackColor = System.Drawing.Color.Transparent;
+            this.pilt.Image = global::IlmaAPI.Properties.Resources._801;
+            this.pilt.Location = new System.Drawing.Point(38, 121);
+            this.pilt.Name = "pilt";
+            this.pilt.Size = new System.Drawing.Size(453, 441);
+            this.pilt.TabIndex = 2;
+            this.pilt.TabStop = false;
             // 
             // riik
             // 
@@ -86,11 +86,11 @@
             this.BackgroundImage = global::IlmaAPI.Properties.Resources.KSAiRwR1;
             this.ClientSize = new System.Drawing.Size(558, 695);
             this.Controls.Add(this.riik);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pilt);
             this.Controls.Add(this.temper);
             this.Controls.Add(this.peaLinn);
             this.Name = "Ilma_API";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pilt)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -103,7 +103,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label peaLinn;
         private System.Windows.Forms.Label temper;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pilt;
         private System.Windows.Forms.Label riik;
     }
 }

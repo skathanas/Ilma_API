@@ -97,5 +97,26 @@
   <ItemGroup>
     <None Include="Resources\Cloud &amp; Lightning1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\300.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\500.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\600.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\700.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\800.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\801.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

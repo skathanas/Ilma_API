@@ -35,7 +35,8 @@ namespace IlmaAPI
             public sys sys { get; set; }
             public main main { get; set; }
             public List<weather> weatherList { get; set; } 
-                public coord coordinate { get; set; }
+            public coord coordinate { get; set; }
+            public int id { get; set; }
         }
     }
 }
